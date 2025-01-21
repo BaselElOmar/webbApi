@@ -9,7 +9,7 @@ app.MapGet("/add", (int num1, int num2) => AddNumbers(num1, num2));
 app.MapGet("/subtract", (int num1, int num2) => subtractNumbers(num1, num2));
 
 app.Run();
-
+//has to be the end for it to work
 
 string AddNumbers(int num1, int num2)
 {
